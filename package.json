@@ -1,0 +1,23 @@
+{
+  "name": "renew_gdflab",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "fullpage.js": "^4.0.20",
+    "gsap": "^3.12.2",
+    "jquery": "^3.7.0",
+    "swiper": "^9.4.1",
+    "vue": "^3.3.4",
+    "vue-fullpage.js": "^0.2.15",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.9"
+  }
+}
