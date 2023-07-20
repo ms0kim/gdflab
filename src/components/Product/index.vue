@@ -32,16 +32,16 @@
           </h2>
           <ul class="project_content service">
             <li>
-              <router-link to="/project/detail/pikavue"><img src="../../assets/media/pikavueweb.jpg" alt=""></router-link>
+              <router-link to="/product/detail/pikavue"><img src="../../assets/media/pikavueweb.jpg" alt=""></router-link>
             </li>
             <li>
-              <router-link to="/project/detail/platform"><img src="../../assets/media/platform.jpg" alt=""></router-link>
+              <router-link to="/product/detail/platform"><img src="../../assets/media/platform.jpg" alt=""></router-link>
             </li>
             <li>
-              <router-link to="/project/detail/play"><img src="../../assets/media/gdfplayweb.jpg" alt=""></router-link>
+              <router-link to="/product/detail/play"><img src="../../assets/media/gdfplayweb.jpg" alt=""></router-link>
             </li>
             <li>
-              <router-link to="/project/detail/enhancer"><img src="../../assets/media/genhancer.jpg" alt=""></router-link>
+              <router-link to="/product/detail/enhancer"><img src="../../assets/media/genhancer.jpg" alt=""></router-link>
             </li>
           </ul>
           <!-- <ul class="project_content sdk">

@@ -1,19 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import Technology from '../views/TechnologyView.vue'
 import AboutView from '../views/AboutView.vue'
-import ProjectView from '../views/ProjectView.vue'
-import ProjectDetail from '../views/ProjectDetail.vue'
-import Pikavue from '../components/Project/Pikavue.vue'
-import Platform from '../components/Project/Platform.vue'
-import Play from '../components/Project/Play.vue'
-import Enhancer from '../components/Project/Enhancer.vue'
-import Sdk from '../components/Project/Sdk.vue'
-import Ai from '../components/Project/Ai.vue'
-import Image from '../components/Project/Image.vue'
-import Video from '../components/Project/Video.vue'
-import Live from '../components/Project/Live.vue'
-import Vr from '../components/Project/Vr.vue'
-import Remote from '../components/Project/Remote.vue'
+import ProductView from '../views/ProductView.vue'
+import ProductDetail from '../views/ProductDetail.vue'
+import Pikavue from '../components/Product/Pikavue.vue'
+import Platform from '../components/Product/Platform.vue'
+import Play from '../components/Product/Play.vue'
+import Enhancer from '../components/Product/Enhancer.vue'
+import Sdk from '../components/Product/Sdk.vue'
+import Ai from '../components/Product/Ai.vue'
+import Image from '../components/Product/Image.vue'
+import Video from '../components/Product/Video.vue'
+import Live from '../components/Product/Live.vue'
+import Vr from '../components/Product/Vr.vue'
+import Remote from '../components/Product/Remote.vue'
 import ContactView from '../views/ContactView.vue'
 
 const router = createRouter({
@@ -25,19 +26,19 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
-      component: AboutView
+      path: '/technology',
+      name: 'technology',
+      component: Technology
     },
     {
-      path: '/project',
-      name: 'project',
-      component: ProjectView
+      path: '/product',
+      name: 'product',
+      component: ProductView
     },
     {
-      path: '/project/detail',
-      name: 'project detail',
-      component: ProjectDetail,
+      path: '/product/detail',
+      name: 'product detail',
+      component: ProductDetail,
       children: [
         {
           path: 'pikavue',
@@ -84,6 +85,11 @@ const router = createRouter({
           component: Remote
         }
       ]
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: AboutView
     },
     {
       path: '/contact',

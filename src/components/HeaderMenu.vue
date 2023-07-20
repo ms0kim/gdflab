@@ -5,10 +5,10 @@
   <div class="headerMenu">
     <div class="sub">
       <p>
-        <router-link to="/about">Technology</router-link>
+        <router-link to="/technology">Technology</router-link>
       </p>
       <p>
-        <router-link to="/project">Product</router-link>
+        <router-link to="/product">Product</router-link>
       </p>
       <p>
         <router-link to="/about">About</router-link>
