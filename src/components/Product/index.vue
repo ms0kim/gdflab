@@ -1,6 +1,5 @@
 <script>
   import HeaderNav from '../HeaderNav.vue';
-  import BottomNav from '../BottomNav.vue';
   import BottomFooter from '../BottomFooter.vue';
   import Scrollbar from 'smooth-scrollbar';
 
@@ -12,7 +11,6 @@
     },
     components: {
       HeaderNav,
-      BottomNav,
       BottomFooter,
     },
     mounted() {
