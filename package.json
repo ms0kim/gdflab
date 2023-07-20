@@ -8,16 +8,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@morioh/v-smooth-scrollbar": "^1.0.3",
     "fullpage.js": "^4.0.20",
     "gsap": "^3.12.2",
     "jquery": "^3.7.0",
+    "smooth-scrollbar": "^8.8.4",
     "swiper": "^9.4.1",
     "vue": "^3.3.4",
-    "vue-fullpage.js": "^0.2.15",
-    "vue-router": "^4.2.2"
+    "vue-plugin-load-script": "^2.1.1",
+    "vue-router": "^4.2.2",
+    "vue-smoothie": "^1.2.0",
+    "vue3-smooth-scroll": "^0.8.1",
+    "vue3-smooth-scrollbar": "^1.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "vue-fullpage.js": "^0.2.15"
   }
 }

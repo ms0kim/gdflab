@@ -22,9 +22,6 @@
       </li>
     </ul>
     <div class="img">
-      <!-- <div class="back"></div> -->
-      <!-- <img src="../../assets/media/partner.jpg" alt=""> -->
-      <!-- <img src="../../assets/media/earth.jpg" alt=""> -->
     </div>
   </div>
 </template>

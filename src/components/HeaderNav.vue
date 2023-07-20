@@ -18,14 +18,14 @@
     <ul>
       <li class="left">
         <div class="logo">
-          <router-link to="/">
+          <a href="/">
             <img src="../assets/media/gdflogo.svg" alt="">
             <p>GDFLAB</p>
-          </router-link>
+          </a>
         </div>
       </li>
-      <li class="app" @click="menu = true">
-        <i class="ri-apps-2-fill"></i>
+      <li class="app">
+        <i class="ri-apps-2-fill" @click="menu = true"></i>
       </li>
     </ul>
     <Transition name="menu">

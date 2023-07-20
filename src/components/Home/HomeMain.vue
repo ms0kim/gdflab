@@ -4,8 +4,6 @@
 
 <template>
   <div class="content homeMain">
-    <video muted autoplay loop src="../../assets/media/main.mp4"></video>
-    <div class="leftText">
-    </div>
+    <video muted autoplay loop data-keepplaying src="../../assets/media/main.mp4"></video>
   </div>
 </template>

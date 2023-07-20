@@ -1,9 +1,9 @@
 <script>
-  import { Swiper, SwiperSlide } from 'swiper/vue';
-  import { Mousewheel, Autoplay, EffectFade, EffectCreative, Navigation } from 'swiper';
-  import 'swiper/css';
-  import "swiper/css/effect-fade";
-  import "swiper/css/navigation";
+  // import { Swiper, SwiperSlide } from 'swiper/vue';
+  // import { Mousewheel, Autoplay, EffectFade, EffectCreative, Navigation } from 'swiper';
+  // import 'swiper/css';
+  // import "swiper/css/effect-fade";
+  // import "swiper/css/navigation";
 
   export default {
     data() {
@@ -12,18 +12,18 @@
       }
     },
     components: {
-      Swiper,
-      SwiperSlide
+      // Swiper,
+      // SwiperSlide
     },
     methods: {
-      scroll(swiper){
-        this.$emit('slide', swiper.activeIndex);
-      }
+      // scroll(swiper){
+      //   this.$emit('slide', swiper.activeIndex);
+      // }
     },
     setup() {
-      return {
-        modules: [Mousewheel, Autoplay, EffectFade, EffectCreative, Navigation],
-      };
+      // return {
+      //   modules: [Mousewheel, Autoplay, EffectFade, EffectCreative, Navigation],
+      // };
     }
   }
 </script>
@@ -31,7 +31,7 @@
 <template>
   <div class="content technology">
     <div class="tech">
-      <!-- <div class="top">
+      <div class="top">
         <h4>
           GDFLab Technology
         </h4>
@@ -52,22 +52,42 @@
           <h2>video<br>upscale</h2>
           <img src="../../assets/media/video.jpg" alt="">
         </li>
-        <li>
-          <p class="more"><i class="ri-more-line"></i></p>
-          <h2>Live</h2>
-          <img src="../../assets/media/live.jpg" alt="">
-        </li>
-        <li>
-          <p class="more"><i class="ri-more-line"></i></p>
-          <h2>VR</h2>
-          <img src="../../assets/media/vr.jpg" alt="">
-        </li>
-      </ul> -->
+      </ul>
+      <!-- <div class="top">
+        <h4>
+          GDFLab Technology
+        </h4>
+      </div>
+      <div class="swiper-container tecSlide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <p class="more"><i class="ri-more-line"></i></p>
+            <h2>AI</h2>
+            <img src="../../assets/media/ai.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <p class="more"><i class="ri-more-line"></i></p>
+            <h2>AI</h2>
+            <img src="../../assets/media/ai.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <p class="more"><i class="ri-more-line"></i></p>
+            <h2>AI</h2>
+            <img src="../../assets/media/ai.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <p class="more"><i class="ri-more-line"></i></p>
+            <h2>AI</h2>
+            <img src="../../assets/media/ai.jpg" alt="">
+          </div>
+        </div>
+      </div> -->
 
 
-      <swiper
-        :slidesPerView="'3'"
-        :spaceBetween="30"
+      <!-- <swiper
+        :direction="horizontal"
+        :slidesPerView="3"
+        :spaceBetween="50"
         :modules="modules"
         :class="enabled? 'techSlide swiper-no-mousewheel' : 'techSlide'"
         :touchRatio="1"
@@ -86,10 +106,10 @@
           <h4>
             GDFLab Technology
           </h4>
-        </div>
-        <i class="ri-arrow-left-line leftBtn" ref="prev" slot="button-prev"></i>
-        <i class="ri-arrow-right-line rightBtn" ref="next" slot="button-next"></i>
-        <swiper-slide class="first">
+        </div> -->
+        <!-- <i class="ri-arrow-left-line leftBtn" ref="prev" slot="button-prev"></i>
+        <i class="ri-arrow-right-line rightBtn" ref="next" slot="button-next"></i> -->
+        <!-- <swiper-slide class="first">
           <p class="more"><i class="ri-more-line"></i></p>
           <h2>AI</h2>
           <img src="../../assets/media/ai.jpg" alt="">
@@ -114,8 +134,12 @@
           <h2>VR</h2>
           <img src="../../assets/media/vr.jpg" alt="">
         </swiper-slide>
-        <swiper-slide></swiper-slide>
-      </swiper>
+        <swiper-slide class="last">
+          <p class="more"><i class="ri-more-line"></i></p>
+          <h2>Remote</h2>
+          <img src="../../assets/media/vr.jpg" alt="">
+        </swiper-slide>
+      </swiper> -->
     </div>
   </div>
 </template>
