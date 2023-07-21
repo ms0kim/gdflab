@@ -20,59 +20,136 @@
 </script>
 
 <template>
-  <div class="content">
-    <HeaderNav />
+  <div class="content technology_menu">
+    <HeaderNav class="black"/>
     <div id="mainScroll">
-      <div>
-        <h2>핵심 기술</h2>
-        <p>지디에프랩은 IT 서비스를 책임질 AI 기술을 활용한 화질개선 솔루션을 보유하고 있습니다</p>
-        <ul>
-          <li>
-            <h3>AI image upscale</h3>
-            <p>AI 업스케일링으로 이미지의 해상도를 높이고 노이즈를 제거하여 선명한 화질을 제공합니다</p>         
-          </li>
-          <li>
-            <h3>AI video upscale</h3>
-            <p>AI 업스케일링으로 이미지의 해상도를 높이고 노이즈를 제거하여 선명한 화질을 제공합니다</p>         
-          </li>
-          <li>
-            <h3>AI mask</h3>
-            <p>AI 업스케일링으로 이미지의 해상도를 높이고 노이즈를 제거하여 선명한 화질을 제공합니다</p>         
-          </li>
-          <li>
-            <h3>Mobile edge</h3>
-            <p>AI 업스케일링으로 이미지의 해상도를 높이고 노이즈를 제거하여 선명한 화질을 제공합니다</p>         
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3>적용 가능 산업</h3>
-        <ul>
-          <li>PC / Server software</li>
-          <li>edge device</li>
-          <li>mobile app</li>
-        </ul>
-      </div>
-      <div>
-        <h3>연구개발 실적</h3>
-        <ul>
-          <li>
-            <p>특허등록</p>
-            <h3>15</h3>
-          </li>
-          <li>
-            <p>해외등록</p>
-            <h3>2</h3>
-          </li>
-          <li>
-            <p>특허출원</p>
-            <h3>6</h3>
-          </li>
-          <li>
-            <p>해외PCT</p>
-            <h3>4</h3>
-          </li>
-        </ul>
+      <div class="con">
+        <div class="con1">
+          <h2>
+            IT 서비스를 책임질 AI 화질개선<br>
+            솔루션을 선보이는 지디에프랩입니다
+          </h2>
+          <ul>
+            <li>
+              <div>
+                <h4>AI pre-processing</h4>
+                <p>
+                  자체 핵심 AI 모델 개발<br>
+                  고도화 학습 기술 보유
+                </p>    
+              </div>     
+            </li>
+            <li>
+              <div>
+                <h4>AI image/video upscaler</h4>
+                <p>
+                  AI 업스케일링으로 이미지/영상 품질 개선<br>
+                  노이즈 제거와 선명한 고화질 기술 제공
+                </p>    
+              </div>     
+            </li>
+            <li>
+              <div>
+                <h4>Mobile edge</h4>
+                <p>
+                  실시간 모바일 화질개선 AI<br>
+                  통신망 절감 SDK 기술 보유
+                </p>
+              </div>         
+            </li>
+            <li>
+              <div>
+                <h4>VR/XR</h4>
+                <p>
+                  HMD에서 연동 가능한<br>
+                  실시간 화질개선 AI 기술 보유
+                </p>
+              </div>         
+            </li>
+          </ul>
+        </div>
+        <div class="con2">
+          <h3>적용 가능 산업</h3>
+          <ul>
+            <li>
+              <img src="../../assets/media/mobile.jpg" alt="">
+              <p>Mobile & Communication</p>
+            </li>
+            <li>
+              <img src="../../assets/media/sdk.jpg" alt="">
+              <p>IoT</p>
+            </li>
+            <li>
+              <img src="../../assets/media/vehicle.jpg" alt="">
+              <p>Vehicle/Flight IT</p>
+            </li>
+            <li>
+              <img src="../../assets/media/enter.jpg" alt="">
+              <p>Entertainment</p>
+            </li>
+            <li>
+              <img src="../../assets/media/security.jpg" alt="">
+              <p>Security</p>
+            </li>
+            <li>
+              <img src="../../assets/media/telecom.jpg" alt="">
+              <p>Telecommunication / Government Organization</p>
+            </li>
+          </ul>
+        </div>
+        <div class="con3">
+          <h3>연구개발 실적</h3>
+          <ul>
+            <li>
+              <p>특허등록</p>
+              <h3>15</h3>
+            </li>
+            <li>
+              <p>해외등록</p>
+              <h3>2</h3>
+            </li>
+            <li>
+              <p>특허출원</p>
+              <h3>6</h3>
+            </li>
+            <li>
+              <p>해외PCT</p>
+              <h3>4</h3>
+            </li>
+          </ul>
+        </div>
+        <div class="con4">
+          <h3>미래전략</h3>
+          <ul>
+            <li>
+              <div>
+                <h3>2025-2026</h3>
+                <h4>기업공개</h4>
+              </div>
+              <p>
+                일반영상, cctv, iot, 바이오, 항공용 ai sr 고도화 ai sr api 플랫폼화, gdfplay앱 유료화
+              </p>
+            </li>
+            <li>
+              <div>
+                <h3>2023-2024</h3>
+                <h4>실시간 ai 화질개선앱 출시</h4>
+              </div>
+              <p>
+                앱 전용 실시간 sr기술 상용화 ai sr 적용 분야 다각화
+              </p>
+            </li>
+            <li>
+              <div>
+                <h3>2021-2022</h3>
+                <h4>콘텐츠 ai 리마스터링 상용화</h4>
+              </div>
+              <p>
+                ai리마스터링 서비스/pc 툴 출시 국내외 콘텐츠사업자 poc 진행
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <BottomFooter />

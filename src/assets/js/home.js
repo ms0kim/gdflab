@@ -30,23 +30,21 @@ $(document).ready(function(){
   var sec4 = $(".sec4 .swiper-slide").length;
   var sec5 = $(".sec5 .swiper-slide").length;
   var sec6 = $(".sec6 .swiper-slide").length;
-  var swiper = new Swiper('.swiper-container', {
+  var swiper = new Swiper('.product_slide', {
     slidesPerView: 1,
     spaceBetween: 0,
     freeMode: false,
-    speed: 1000,
+    speed: 500,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
     },
+    effect: 'fade',
     mousewheel: true,
     on: {
       slideChange: function(){        
         var idx = this.activeIndex;
         // 처음과 마지막 슬라이드가 아닐경우 fullpage전환 막기
-        if(this.activeIndex != 0 && idx != sec3) $.fn.fullpage.setAllowScrolling(false);
-        if(sec3 == 2 && idx == 0) $.fn.fullpage.setAllowScrolling(false) //슬라이드가 2개밖에 없을때
-
         if(this.activeIndex != 0 && idx != sec4) $.fn.fullpage.setAllowScrolling(false);
         if(sec4 == 2 && idx == 0) $.fn.fullpage.setAllowScrolling(false)
 
@@ -60,7 +58,6 @@ $(document).ready(function(){
       slideChangeTransitionEnd: function(){
         var idx = this.activeIndex;
         // 처음과 마지막 슬라이드일 경우 fullpage전환 풀기
-        if(idx == 0 || idx >= sec3-1) $.fn.fullpage.setAllowScrolling(true);
         if(idx == 0 || idx >= sec4-1) $.fn.fullpage.setAllowScrolling(true);
         if(idx == 0 || idx >= sec5-1) $.fn.fullpage.setAllowScrolling(true);
         if(idx == 0 || idx >= sec6-1) $.fn.fullpage.setAllowScrolling(true);
@@ -76,5 +73,40 @@ $(document).ready(function(){
         },100);        
       },
     }, 
-  });            
+  });    
+  var tec = new Swiper('.tecSlide', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    freeMode: false,
+    speed: 500,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    mousewheel: true,
+    on: {
+      slideChange: function(){        
+        var idx = this.activeIndex;
+        // 처음과 마지막 슬라이드가 아닐경우 fullpage전환 막기
+        if(this.activeIndex != 0 && idx != sec3) $.fn.fullpage.setAllowScrolling(false);
+        if(sec3 == 2 && idx == 0) $.fn.fullpage.setAllowScrolling(false) //슬라이드가 2개밖에 없을때
+        // console.log('즉시 : ' + idx);
+      },  
+      slideChangeTransitionEnd: function(){
+        var idx = this.activeIndex;
+        // 처음과 마지막 슬라이드일 경우 fullpage전환 풀기
+        if(idx == 0 || idx >= sec3-1) $.fn.fullpage.setAllowScrolling(true);
+        // console.log('전환후 : ' + idx);     
+      },
+      touchMove: function(e) {        
+        var startY = e.touches.startY;
+        setTimeout(function(){
+          if(startY > e.touches.currentY) tec.map((item) => item.slideNext());
+          // if(startY > e.touches.currentY) swiper.slideNext();  
+          else tec.map((item) => item.slidePrev());
+          // else swiper.slidePrev();
+        },100);        
+      },
+    }, 
+  });        
 });

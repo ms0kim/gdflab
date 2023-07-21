@@ -36,17 +36,12 @@
       <ul>
         <li>
           <p class="more"><i class="ri-more-line"></i></p>
-          <h2>Live</h2>
+          <h2>Mobile edge</h2>
           <img src="../../assets/media/live.jpg" alt="">
         </li>
         <li>
           <p class="more"><i class="ri-more-line"></i></p>
-          <h2>VR</h2>
-          <img src="../../assets/media/vr.jpg" alt="">
-        </li>
-        <li>
-          <p class="more"><i class="ri-more-line"></i></p>
-          <h2>Remote</h2>
+          <h2>VR/XR</h2>
           <img src="../../assets/media/vr.jpg" alt="">
         </li>
       </ul>

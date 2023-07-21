@@ -38,19 +38,16 @@
       </div>
       <ul>
         <li>
-          <p class="more"><i class="ri-more-line"></i></p>
-          <h2>AI</h2>
-          <img src="../../assets/media/ai.jpg" alt="">
+          <p>지디에프랩만의 고도화 학습 기술로<br>
+                AI 모델을 개발합니다</p>
         </li>
         <li>
-          <p class="more"><i class="ri-more-line"></i></p>
-          <h2>image<br>Upscale</h2>
-          <img src="../../assets/media/cat.jpg" alt="">
+          <p>개발된 AI 모델을 통해 이미지와 동영상의<br>
+                화질개선 솔루션 기술을 선보입니다</p>
         </li>
         <li>
-          <p class="more"><i class="ri-more-line"></i></p>
-          <h2>video<br>upscale</h2>
-          <img src="../../assets/media/video.jpg" alt="">
+          <p>실시간 스트리밍 화질개선 기술을 담은<br>
+                SDK 기술을 보유하고 있습니다</p>
         </li>
       </ul>
       <!-- <div class="top">

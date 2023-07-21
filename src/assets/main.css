@@ -458,7 +458,6 @@ button:hover{
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -625,6 +624,12 @@ button:hover{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.tecSlide .swiper-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -809,6 +814,86 @@ button:hover{
   height: 26px;
   margin-right: 7px;
 }
+
+
+/*////////////////////////////////////////////
+///////////////// technology /////////////////
+////////////////////////////////////////////*/
+
+.technology_menu{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  color: #111;
+  padding: 0;
+}
+.technology_menu .con{
+  padding: 150px 100px 100px;
+}
+.technology_menu .con .con1 ul{
+  display: flex;
+  margin: 100px 0;
+}
+.technology_menu .con .con1 ul li{
+  width: 100%;
+  aspect-ratio: 1;
+  text-align: center;
+  background: #0095e08d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: -30px;
+}
+.technology_menu .con .con1 ul li:first-of-type{
+  margin-left: 0;
+}
+.technology_menu .con .con1 ul li h4{
+  font-size: 30px;
+}
+.technology_menu .con .con2 ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin: 100px 0;
+}
+.technology_menu .con .con2 ul li{
+  height: 300px;
+  position: relative;
+}
+.technology_menu .con .con2 ul li img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.technology_menu .con .con2 ul li p{
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+.technology_menu .con .con3 ul{
+  margin: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+.technology_menu .con .con3 ul li{
+  text-align: center;
+  border: 1px solid #000;
+  padding: 50px;
+}
+.technology_menu .con .con4 ul li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  margin-top: 50px;
+  padding: 50px;
+}
+
 
 
 /*////////////////////////////////////////////
