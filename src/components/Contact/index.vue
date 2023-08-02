@@ -7,8 +7,8 @@
   export default {
     data(){
       return{
-        text1: true,
-        text2: false,
+        // text1: true,
+        // text2: false,
 
         ai: false,
         image: false,
@@ -39,7 +39,7 @@
   <div class="content contactUs" id="mainScroll">
     <HeaderNav class="black"/>
       <form @submit.prevent>
-        <Transition name="right">
+        <!-- <Transition name="right">
           <div class="contact_text" v-if="text1">
             <h4>
               문의할 카테고리를<br>
@@ -64,10 +64,10 @@
               </div>
             </div>
           </div>
-        </Transition>
+        </Transition> -->
   
         <Transition name="right">
-          <div class="contact_text" v-if="text2">
+          <div class="contact_text">
             <h4>
               문의할 내용에 대해<br>
               알려주세요

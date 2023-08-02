@@ -22,6 +22,7 @@
       </li>
     </ul>
     <div class="img">
+      <img src="../../assets/media/partner.jpg" alt="">
     </div>
   </div>
 </template>

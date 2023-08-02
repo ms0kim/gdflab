@@ -9,13 +9,15 @@
 
 <template>
   <div class="content project">
-    <div class="back"></div>
     <div class="text">
       <h2>GDFEnhancer application</h2>
       <p>Upscale application</p>
     </div>
-    <div class="img">
-      <img src="../../assets/media/genhancer.jpg" alt="">
+    <div class="con">
+      <div class="back"></div>
+      <div class="img">
+        <img src="../../assets/media/genhancer.jpg" alt="">
+      </div>
     </div>
   </div>
 </template>

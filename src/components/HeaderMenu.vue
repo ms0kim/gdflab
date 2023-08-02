@@ -11,7 +11,7 @@
         <router-link to="/product">Product</router-link>
       </p>
       <p>
-        <router-link to="/about">About</router-link>
+        <router-link to="/product">Pricing</router-link>
       </p>
       <p>
         <router-link to="/contact">Contact</router-link>

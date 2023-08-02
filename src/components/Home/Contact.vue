@@ -5,8 +5,8 @@
   <div class="content contact">
     <div class="text">
       <h3>
-        혁신<span>적인</span> 인공지능 기술<span>,</span><br>
-        지디에프랩<span>과</span> 함께<span>라면</span> 가능<span>합니다</span>
+        혁신적인 인공지능 기술,<br>
+        지디에프랩과 함께라면 가능합니다
       </h3>
       <button class="abtn">기술 문의하기</button>
     </div>

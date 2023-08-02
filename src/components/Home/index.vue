@@ -2,7 +2,7 @@
   import HeaderNav from '../HeaderNav.vue';
   import BottomNav from '../BottomNav.vue';
   import HomeMain from './HomeMain.vue';
-  import Intro from './Intro.vue';
+  import gdfplay from './gdfplay.vue';
   import Technology from './Technology.vue';
   import Technology2 from './Technology2.vue';
   import Pikavue from './Pikavue.vue';
@@ -11,9 +11,11 @@
   import Play2 from './Play2.vue';
   import Enhancer from './Enhancer.vue';
   import Enhancer2 from './Enhancer2.vue';
+  import Application from './Application.vue';
   import Partner from './Partner.vue';
   import Contact from './Contact.vue';
   import BottomFooter from '../BottomFooter.vue';
+  import Scrollbar from 'smooth-scrollbar';
 
   export default {
     data() {
@@ -24,7 +26,7 @@
       HeaderNav,
       BottomNav,
       HomeMain,
-      Intro,
+      gdfplay,
       Technology,
       Technology2,
       Pikavue,
@@ -33,21 +35,27 @@
       Play2,
       Enhancer,
       Enhancer2,
+      Application,
       Partner,
       Contact,
       BottomFooter,
+    },
+    mounted() {
+      Scrollbar.init(document.querySelector('#mainScroll'), {speed:0.7});
     }
   }
 </script>
 <template>
   <div class="wrap">
     <HeaderNav />
-    <BottomNav />
-    <div id="fullpage">
-      <div class="section sec1"><HomeMain /></div>
-      <div class="section sec2"><Intro /></div>
-      <div class="section sec3">
-        <div class="swiper-container tecSlide">
+    <!-- <BottomNav /> -->
+    <!-- section sec1 -->
+    <div id="mainScroll">
+      <div class=""><HomeMain /></div>
+      <div class=""><gdfplay /></div>
+      <div class="">
+        <Technology />
+        <!-- <div class="swiper-container tecSlide">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <h2>GDFLab Technology</h2>
@@ -71,47 +79,27 @@
               </h3>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
-      <div class="section sec4">
-        <div class="swiper-container product_slide">
+      <div class="">
+        <Application />
+        <!-- <div class="swiper-container product_slide">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <Pikavue />
             </div>
             <div class="swiper-slide">
-              <Pikavue2 />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section sec5">
-        <div class="swiper-container product_slide">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
               <Play />
             </div>
             <div class="swiper-slide">
-              <Play2 />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section sec6">
-        <div class="swiper-container product_slide">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
               <Enhancer />
             </div>
-            <div class="swiper-slide">
-              <Enhancer2 />
-            </div>
           </div>
-        </div>
+        </div> -->
       </div>
-      <div class="section sec7"><Partner /></div>
-      <div class="section sec8"><Contact /></div>
-      <div class="section fp-auto-height"><BottomFooter /></div>
+      <!-- <div class="section sec5"><Partner /></div> -->
+      <div class=""><Contact /></div>
+      <div class=""><BottomFooter /></div>
     </div>
   </div>
 </template>

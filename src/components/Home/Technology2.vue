@@ -31,7 +31,7 @@
 <template>
   <div class="content technology">
     <div class="tech">
-      <div class="top">
+      <!-- <div class="top">
       </div>
       <ul>
         <li>
@@ -44,7 +44,7 @@
           <h2>VR/XR</h2>
           <img src="../../assets/media/vr.jpg" alt="">
         </li>
-      </ul>
+      </ul> -->
 
 
       <!-- <swiper
@@ -69,10 +69,10 @@
           <h4>
             GDFLab Technology
           </h4>
-        </div> -->
-        <!-- <i class="ri-arrow-left-line leftBtn" ref="prev" slot="button-prev"></i>
-        <i class="ri-arrow-right-line rightBtn" ref="next" slot="button-next"></i> -->
-        <!-- <swiper-slide class="first">
+        </div>
+        <i class="ri-arrow-left-line leftBtn" ref="prev" slot="button-prev"></i>
+        <i class="ri-arrow-right-line rightBtn" ref="next" slot="button-next"></i>
+        <swiper-slide class="first">
           <p class="more"><i class="ri-more-line"></i></p>
           <h2>AI</h2>
           <img src="../../assets/media/ai.jpg" alt="">
@@ -101,8 +101,8 @@
           <p class="more"><i class="ri-more-line"></i></p>
           <h2>Remote</h2>
           <img src="../../assets/media/vr.jpg" alt="">
-        </swiper-slide> -->
-      <!-- </swiper> -->
+        </swiper-slide>
+      </swiper> -->
     </div>
   </div>
 </template>

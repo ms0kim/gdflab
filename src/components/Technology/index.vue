@@ -150,6 +150,28 @@
             </li>
           </ul>
         </div>
+        <div class="con5">
+          <h4>History</h4>
+          <p>
+            2018.03 주식회사 지디에프랩 법인 설립 신고<br>
+            2019.03 기업부설연구소 R&D Center 설립 신고<br>
+            2019.04 과기정통부 SW고성장클럽200 선정<br>
+            2019.06 중기부 기술기반창업형R&D 사업 선정<br>
+            2019.11 스타트업 박람회 SLUSH 100 선정<br>
+            2020.06 지식재산 바우처 사업 선정<br>
+            2020.06 AI 바우처사업- X-Ray 실시간 화질개선 엔진 납품<br>
+            2020.07 영상 업스케일링 서비스 ‘pikaVue’ 출시<br>
+            2020.09 AI 바우처사업 – T 커머스 VOD 추천 엔진 납품<br>
+            2020.11 스타트업 박람회 SLUSH 100 선정<br>
+            2021.05 가트너 Cool Vendor 선정<br>
+            2021.09 AI 영상 리마스터링 실증 협약(TVING)<br>
+            2022.04 CJ, ‘씨앗’ 1기 데모데이 우수상 수상<br>
+            2022.07 Gartner IT Leaders AI Tool Vendor 선정<br>
+            2022.10 D.N.A분야 180대 혁신기업 선정(NIA)<br>
+            2023.01 개인용 AI 영상 화질 개선 툴 GDFEnhancer 출시<br>
+            2023.02 모바일 AI Eco-streaming 앱 GDFPlay 출시
+          </p>
+        </div>
       </div>
 
       <BottomFooter />

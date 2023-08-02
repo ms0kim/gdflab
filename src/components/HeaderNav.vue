@@ -24,8 +24,22 @@
           </a>
         </div>
       </li>
+      <li class="right">
+        <router-link to="/technology">
+          Technology
+        </router-link>
+        <router-link to="/product">
+          Product
+        </router-link>
+        <router-link to="/about">
+          Pricing
+        </router-link>
+        <router-link to="/contact">
+          Contact
+        </router-link>
+      </li>
       <li class="app">
-        <i class="ri-apps-2-fill" @click="menu = true"></i>
+        <i class="ri-menu-4-line" @click="menu = true"></i>
       </li>
     </ul>
     <Transition name="menu">
